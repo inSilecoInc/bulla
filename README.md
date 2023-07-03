@@ -1,2 +1,5 @@
 # bulla
-Minimal hugo theme module that include bulma 
+
+Minimal hugo theme module that includes bulma.
+
+
