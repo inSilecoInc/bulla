@@ -1,0 +1,47 @@
+# borrowed from https://github.com/StefMa/hugo-fresh
+[[imports]]
+path = 'github.com/jgthms/bulma'
+
+[[imports.mounts]]
+source = 'bulma.sass'
+target = 'assets/bulma/bulma.sass'
+
+[[imports.mounts]]
+source = 'bulma-rtl.sass'
+target = 'assets/bulma/bulma-rtl.sass'
+
+[[imports.mounts]]
+source = 'sass'
+target = 'assets/bulma/sass'
+
+[[imports.mounts]]
+source = 'sass/base'
+target = 'assets/bulma/sass/base'
+
+[[imports.mounts]]
+source = 'sass/components'
+target = 'assets/bulma/sass/components'
+
+[[imports.mounts]]
+source = 'sass/elements'
+target = 'assets/bulma/sass/elements'
+
+[[imports.mounts]]
+source = 'sass/form'
+target = 'assets/bulma/sass/form'
+
+[[imports.mounts]]
+source = 'sass/grid'
+target = 'assets/bulma/sass/grid'
+
+[[imports.mounts]]
+source = 'sass/helpers'
+target = 'assets/bulma/sass/helpers'
+
+[[imports.mounts]]
+source = 'sass/layout'
+target = 'assets/bulma/sass/layout'
+
+[[imports.mounts]]
+source = 'sass/utilities'
+target = 'assets/bulma/sass/utilities'
