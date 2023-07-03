@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <div class="article-meta">
+    <h1 id="title">{{ .Title | markdownify }}</h1>
+  </div>
+
+
+  <div class="article-main">
+    {{ .Content }}
+  </div>
+
+  <div class="listings">
+    <ol reversed> 
+      {{ range (where .Data.Pages "Section" "!=" "") }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+ 
+{{ end }}

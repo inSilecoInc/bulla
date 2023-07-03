@@ -1,0 +1,12 @@
+ <head>
+
+   <title>{{ .Site.Title }}</title>
+
+  {{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+  {{ end }}
+
+   <!-- custom HEAD -->
+   {{ partial "head_custom.html" . }}
+
+ </head>

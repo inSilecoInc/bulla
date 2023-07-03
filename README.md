@@ -1,5 +1,4 @@
 # bulla
 
-Minimal hugo theme module that includes bulma.
-
+A minimal [hugo module](https://gohugo.io/hugo-modules/) that includes [bulma](https://bulma.io/).
 
