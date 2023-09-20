@@ -1,12 +1,15 @@
- <head>
+<head>
 
-   <title>{{ .Site.Title }}</title>
+  <title>{{ .Site.Title }}</title>
+
+  {{ partial "css.html" . }}
 
   {{ if or .Params.math .Site.Params.math }}
-    {{ partial "math.html" . }}
+  {{ partial "math.html" . }}
   {{ end }}
 
-   <!-- custom HEAD -->
-   {{ partial "head_custom.html" . }}
+  <!-- custom HEAD -->
+  {{ partial "head_custom.html" . }}
 
- </head>
+
+</head>

@@ -1,8 +1,22 @@
 {{ define "main" }}
 
-<div class="article-main">
-  This is the main page
-</div>
+{{ .Content }}
+
+  <button class="button is-warning">
+    Button
+  </button>
+  <button class="button is-danger">
+    Button
+  </button>
+
+  <button class="button is-primary">Sign in</button>
+</form>
+
+{{ with resources.Get "icons/cart.svg" }}
+  <div class="fill-current w-4">
+    {{ .Content | safeHTML }}
+  </div>
+{{ end }}
 
 
 {{ end }}

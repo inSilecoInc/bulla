@@ -1,0 +1,17 @@
+baseURL = "https://insileco.io/bulla"
+title = "Bulla Theme"
+author = "Kevin Cazelles"
+languageCode = "en-us"
+ignoreErrors = ["error-remote-getjson"]
+copyright = "Copyright 2023-2023 inSileco Inc."
+footnotereturnlinkcontents = "<sup>^</sup>"
+enableEmoji = true
+pygmentsUseClasses = false
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+
+[module]
+[module.imports]
+path = "github.com/inSilecoInc/bulla"
